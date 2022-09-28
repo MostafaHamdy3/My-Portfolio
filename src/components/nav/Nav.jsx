@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
@@ -10,8 +10,16 @@ import { BiMessageRoundedDetail } from "react-icons/bi";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
 
+  // const [scroll, setScroll] = useState("#");
+  // const change = () => {
+  //   if (window.scrollY >= 680) setScroll(true);
+  //   else setScroll(false);
+  // };
+
+  // window.addEventListener("scroll", change);
+
   return (
-    <nav className="section">
+    <nav>
       <a
         href="#"
         onClick={() => setActiveNav("#")}

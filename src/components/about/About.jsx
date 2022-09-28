@@ -43,6 +43,7 @@ const About = () => {
             I'm Mostafa Hamdy, I'm an Engineering undergraduate student at
             Fayoum University with solid knowledge and experience in front-end
             development.
+            <br />I trained at Kalbonyan-Elmarsos.
           </p>
 
           <a href="#contact" className="btn btn-primary">

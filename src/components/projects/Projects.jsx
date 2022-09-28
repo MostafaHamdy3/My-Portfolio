@@ -8,6 +8,10 @@ import img5 from "./images/img5.png";
 import img6 from "./images/img6.png";
 import img7 from "./images/img7.png";
 import img8 from "./images/img8.png";
+import img9 from "./images/img9.png";
+import img10 from "./images/img10.png";
+import img11 from "./images/img11.png";
+import img12 from "./images/img12.png";
 
 const Projects = () => {
   return (
@@ -24,7 +28,7 @@ const Projects = () => {
           <p>A restaurant website</p>
           <div className="project__item-cta">
             <a
-              href="https://github.com/MostafaHamdy3/omnifood"
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-01-HTML-CSS-Jonas/Projects/Omnifood"
               className="btn"
               target="_blank"
             >
@@ -48,7 +52,7 @@ const Projects = () => {
           <p>A recipes website allows you to search +million recipe.</p>
           <div className="project__item-cta">
             <a
-              href="https://github.com/MostafaHamdy3/forkify"
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Forkify"
               className="btn"
               target="_blank"
             >
@@ -72,7 +76,7 @@ const Projects = () => {
           <p>A simple dice game between two players.</p>
           <div className="project__item-cta">
             <a
-              href="https://github.com/MostafaHamdy3/PigGame"
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Pig-Game"
               className="btn"
               target="_blank"
             >
@@ -96,7 +100,7 @@ const Projects = () => {
           <p>A simple bank website application with modern animation.</p>
           <div className="project__item-cta">
             <a
-              href="https://github.com/MostafaHamdy3/Bankist-Webside"
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Bankist-Site"
               className="btn"
               target="_blank"
             >
@@ -120,7 +124,7 @@ const Projects = () => {
           <p>A simple simulation for a bank website. fake login "mh" "1111"</p>
           <div className="project__item-cta">
             <a
-              href="https://github.com/MostafaHamdy3/Bankist"
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Bankist"
               className="btn"
               target="_blank"
             >
@@ -147,7 +151,7 @@ const Projects = () => {
           </p>
           <div className="project__item-cta">
             <a
-              href="https://github.com/MostafaHamdy3/Map"
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Mapty"
               className="btn"
               target="_blank"
             >
@@ -171,7 +175,7 @@ const Projects = () => {
           <p>A simple pong game between two players.</p>
           <div className="project__item-cta">
             <a
-              href="https://github.com/MostafaHamdy3/Multiplayer-Pong"
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-04-Nodejs-ZTM/Projects/Multiplayer-Pong"
               className="btn"
               target="_blank"
             >
@@ -192,10 +196,12 @@ const Projects = () => {
             <img src={img8} alt="" />
           </div>
           <h3>Scratch</h3>
-          <p>A note app made with sst framework.</p>
+          <p>
+            A note app that you can write your notes, made with sst framework.
+          </p>
           <div className="project__item-cta">
             <a
-              href="https://github.com/MostafaHamdy3/my-sst"
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/04-Serverless-Stack-Project/Serverless-project"
               className="btn"
               target="_blank"
             >
@@ -203,6 +209,111 @@ const Projects = () => {
             </a>
             <a
               href="https://d3kivtqqurvdmk.cloudfront.net/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="project__item">
+          <div className="project__item-image">
+            <img src={img9} alt="" />
+          </div>
+          <h3>Order food app</h3>
+          <p>
+            A food app website that use database and you can add any food you
+            want in your cart and send your order.
+          </p>
+          <div className="project__item-cta">
+            <a
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-03-Reactjs-Maximilian/Projects/order-food-app/S17-project"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://order-food-app-mostafa.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="project__item">
+          <div className="project__item-image">
+            <img src={img10} alt="" />
+          </div>
+          <h3>Cart app</h3>
+          <p>
+            A website that use database to get all number of books you add to
+            your cart.
+          </p>
+          <div className="project__item-cta">
+            <a
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-03-Reactjs-Maximilian/Projects/redux-cart"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://redux-cart-mostafa.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="project__item">
+          <div className="project__item-image">
+            <img src={img11} alt="" />
+          </div>
+          <h3>Quote app</h3>
+          <p>A website that use database to get all quotes.</p>
+          <div className="project__item-cta">
+            <a
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-03-Reactjs-Maximilian/Projects/quotes-app"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://quotes-app-mostafa.netlify.app/quotes"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="project__item">
+          <div className="project__item-image">
+            <img src={img12} alt="" />
+          </div>
+          <h3>Authentication Page</h3>
+          <p>
+            A website that use database to make authentication with data you
+            write.
+          </p>
+          <div className="project__item-cta">
+            <a
+              href="https://github.com/MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-03-Reactjs-Maximilian/Projects/Authentication-page"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://authentication-page-mostafa.netlify.app/auth"
               className="btn btn-primary"
               target="_blank"
             >
