@@ -313,7 +313,7 @@ const Projects = () => {
               GitHub
             </a>
             <a
-              href="https://authentication-page-mostafa.netlify.app/auth"
+              href="https://authentication-page-mostafa.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
