@@ -6,12 +6,13 @@ import img3 from "./images/img3.png";
 import img4 from "./images/img4.png";
 import img5 from "./images/img5.png";
 import img6 from "./images/img6.png";
-import img7 from "./images/img7.png";
+// import img7 from "./images/img7.png";
 import img8 from "./images/img8.png";
 import img9 from "./images/img9.png";
 import img10 from "./images/img10.png";
 import img11 from "./images/img11.png";
 import img12 from "./images/img12.png";
+import img13 from "./images/img13.jpg";
 
 const Projects = () => {
   return (
@@ -167,7 +168,7 @@ const Projects = () => {
           </div>
         </article>
 
-        <article className="project__item">
+        {/* <article className="project__item">
           <div className="project__item-image">
             <img src={img7} alt="" />
           </div>
@@ -183,6 +184,32 @@ const Projects = () => {
             </a>
             <a
               href="https://mostafa-pong.herokuapp.com/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article> */}
+        <article className="project__item">
+          <div className="project__item-image">
+            <img src={img13} alt="" />
+          </div>
+          <h3>Hangman Game</h3>
+          <p>
+            A simple game you guess the letter if it exist in random word that
+            will added in specific index, you've 4 attempts to guess the word.
+          </p>
+          <div className="project__item-cta">
+            <a
+              href="https://github.com/MostafaHamdy3/Hangman"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://hangman-rouge-two.vercel.app/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -286,7 +313,7 @@ const Projects = () => {
               GitHub
             </a>
             <a
-              href="https://quotes-app-mostafa.netlify.app/quotes"
+              href="https://quotes-app-mostafa.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
