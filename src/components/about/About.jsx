@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me.png";
+import ME from "../../assets/me.webp";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { AiFillProject } from "react-icons/ai";
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About me" />
           </div>
         </div>
 
@@ -29,22 +29,21 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>NoOne</small>
+              <small>5+</small>
             </article>
 
             <article className="about__card">
               <AiFillProject className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <small>15+ Completed</small>
             </article>
           </div>
 
-          <p>
-            I'm Mostafa Hamdy, I'm an Engineering undergraduate student at
-            Fayoum University with solid knowledge and experience in front-end
-            development.
-            <br />I trained at Kalbonyan-Elmarsos.
-          </p>
+          <ul>
+            <li>Bachelor's degree in Computer Engineering at Fayoum University.</li>
+            <li>I'm working on KSA company.</li>
+            <li>I trained at Kalbonyan-Elmarsos.</li>
+          </ul>
 
           <a href="#contact" className="btn btn-primary">
             Let's Talk

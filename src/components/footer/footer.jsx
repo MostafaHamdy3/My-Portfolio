@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import MH from "../../assets/logo-h1.png";
+import MH from "../../assets/logo-h1.webp";
 import { BsLinkedin } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 
@@ -30,7 +30,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/mostafa-hamdy-5b793b206/">
+        <a href="https://www.linkedin.com/in/mostafa-7amdy/">
           <BsLinkedin />
         </a>
         {/* ADD Your facebook link here */}
