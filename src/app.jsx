@@ -5,7 +5,6 @@ import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/footer";
 
 export default function App() {
   const [activeNav, setActiveNav] = useState("#");
@@ -53,7 +52,6 @@ export default function App() {
       <div ref={el => (sections.current["#contact"] = el)}>
         <Contact />
       </div>
-      <Footer />
     </div>
   );
 }

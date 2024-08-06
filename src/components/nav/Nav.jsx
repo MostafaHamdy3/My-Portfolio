@@ -9,19 +9,39 @@ import "./nav.css";
 const Nav = ({ activeNav }) => {
   return (
     <nav>
-      <a href="#" className={activeNav === "#" ? "active" : ""}>
+      <a
+        href="#"
+        className={activeNav === "#" ? "active" : ""}
+        aria-label="Home icon"
+      >
         <AiOutlineHome />
       </a>
-      <a href="#about" className={activeNav === "#about" ? "active" : ""}>
+      <a
+        href="#about"
+        className={activeNav === "#about" ? "active" : ""}
+        aria-label="About icon"
+      >
         <AiOutlineUser />
       </a>
-      <a href="#experience" className={activeNav === "#experience" ? "active" : ""}>
+      <a
+        href="#experience"
+        className={activeNav === "#experience" ? "active" : ""}
+        aria-label="Experience icon"
+      >
         <BiBook />
       </a>
-      <a href="#projects" className={activeNav === "#projects" ? "active" : ""}>
+      <a
+        href="#projects"
+        className={activeNav === "#projects" ? "active" : ""}
+        aria-label="Projects icon"
+      >
         <AiOutlineProject />
       </a>
-      <a href="#contact" className={activeNav === "#contact" ? "active" : ""}>
+      <a
+        href="#contact"
+        className={activeNav === "#contact" ? "active" : ""}
+        aria-label="Contact icon"
+      >
         <BiMessageRoundedDetail />
       </a>
     </nav>
