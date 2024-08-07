@@ -6,7 +6,6 @@ import img14 from "../../assets/images/foresight-mobile.webp";
 import img15 from "../../assets/images/expense.webp";
 import img1 from "../../assets/images/img1.webp";
 import img2 from "../../assets/images/img2.webp";
-import img3 from "../../assets/images/img3.webp";
 import img4 from "../../assets/images/img4.webp";
 import img5 from "../../assets/images/img5.webp";
 import img6 from "../../assets/images/img6.webp";
@@ -45,9 +44,8 @@ const projects = [
     img: img1,
     name: "Omnifood",
     description: "A restaurant website",
-    githubLink:
-      "MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-01-HTML-CSS-Jonas/Projects/Omnifood",
-    demoLink: "https://omnifoodmostafa.netlify.app/",
+    githubLink: "MostafaHamdy3/omnifood",
+    demoLink: "https://omnifood-kappa-ruddy.vercel.app/",
     category: "HTML&CSS",
   },
   {
@@ -57,15 +55,6 @@ const projects = [
     githubLink:
       "MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Forkify",
     demoLink: "https://forkify-mostafa.netlify.app/",
-    category: "JS",
-  },
-  {
-    img: img3,
-    name: "Pig Game",
-    description: "A simple dice game between two players.",
-    githubLink:
-      "MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Pig-Game",
-    demoLink: "https://game-mostafa.netlify.app/",
     category: "JS",
   },
   {

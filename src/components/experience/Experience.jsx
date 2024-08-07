@@ -1,6 +1,24 @@
 import React from "react";
+
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import ExperienceType from "./ExperienceType";
+
+const experiences = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "ReactJs",
+  "EXPO",
+  "React Native",
+  "API",
+  "Redux",
+];
+
+const expTools = [
+  "Jira",
+  "Figma",
+  "Git/GitHub",
+]
 
 const Experience = () => {
   return (
@@ -9,55 +27,19 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div>
-          <h3>Frontend Development</h3>
+          <h3>Languages & Technologies</h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Very Good</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
-                <small className="text-light">Very Good</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Very Good</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>ReactJs</h4>
-                <small className="text-light">Very Good</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React Native</h4>
-                <small className="text-light">Very Good</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>EXPO</h4>
-                <small className="text-light">Very Good</small>
-              </div>
-            </article>
+            {experiences.map((exp, index) => (
+              <ExperienceType key={index} ExpName={exp} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <div className="experience__content">
+            {expTools.map((exp, index) => (
+              <ExperienceType key={index} ExpName={exp} />
+            ))}
           </div>
         </div>
       </div>
