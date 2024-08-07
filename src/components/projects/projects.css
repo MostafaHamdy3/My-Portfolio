@@ -101,3 +101,10 @@
     height: 190px;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .project__item img {
+    width: 300px;
+    height: 145px;
+  }
+}
