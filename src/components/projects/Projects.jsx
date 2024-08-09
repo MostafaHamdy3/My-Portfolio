@@ -57,15 +57,15 @@ const projects = [
     demoLink: "https://forkify-mostafa.netlify.app/",
     category: "JS",
   },
-  {
-    img: img4,
-    name: "Bankist website",
-    description: "A simple bank website application with modern animation.",
-    githubLink:
-      "MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Bankist-Site",
-    demoLink: "https://bankist-webside-mostafa.netlify.app/",
-    category: "JS",
-  },
+  // {
+  //   img: img4,
+  //   name: "Bankist website",
+  //   description: "A simple bank website application with modern animation.",
+  //   githubLink:
+  //     "MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Bankist-Site",
+  //   demoLink: "https://bankist-webside-mostafa.netlify.app/",
+  //   category: "JS",
+  // },
   {
     img: img5,
     name: "Bankist",
