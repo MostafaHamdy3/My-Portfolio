@@ -6,7 +6,7 @@ import img14 from "../../assets/images/foresight-mobile.webp";
 import img15 from "../../assets/images/expense.webp";
 import img1 from "../../assets/images/img1.webp";
 import img2 from "../../assets/images/img2.webp";
-import img4 from "../../assets/images/img4.webp";
+// import img4 from "../../assets/images/img4.webp";
 import img5 from "../../assets/images/img5.webp";
 import img6 from "../../assets/images/img6.webp";
 import img7 from "../../assets/images/img7.webp";
