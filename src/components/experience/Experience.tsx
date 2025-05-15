@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./experience.css";
 import ExperienceType from "./ExperienceType";
 
