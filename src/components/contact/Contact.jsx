@@ -39,7 +39,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>mostafa44hamdy@gmail.com</h5>
-            <a href="mailto:mostafa44hamdy@gmail.com" target="_blank">
+            <a href="mailto:mostafa44hamdy@gmail.com" rel="noreferrer" target="_blank">
               Send a message
             </a>
           </article>
@@ -50,6 +50,7 @@ const Contact = () => {
             <h5>+201093939204</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+201093939204"
+              rel="noreferrer"
               target="_blank"
             >
               Send a message

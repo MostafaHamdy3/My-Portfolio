@@ -10,8 +10,8 @@ const Nav = ({ activeNav }) => {
   return (
     <nav>
       <a
-        href="#"
-        className={activeNav === "#" ? "active" : ""}
+        href="#home"
+        className={activeNav === "#home" ? "active" : ""}
         aria-label="Home icon"
       >
         <AiOutlineHome />

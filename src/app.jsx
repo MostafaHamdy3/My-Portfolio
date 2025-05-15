@@ -7,10 +7,10 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 
 export default function App() {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("#home");
 
   const sections = useRef({
-    "#": null,
+    "#home": null,
     "#about": null,
     "#experience": null,
     "#projects": null,
@@ -36,7 +36,7 @@ export default function App() {
 
   return (
     <div>
-      <div ref={el => (sections.current["#"] = el)}>
+      <div ref={el => (sections.current["#home"] = el)}>
         <Header />
       </div>
       <Nav activeNav={activeNav} />

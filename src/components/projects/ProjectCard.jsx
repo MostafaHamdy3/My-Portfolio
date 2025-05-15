@@ -15,7 +15,7 @@ function ProjectCard(props) {
           href={`https://github.com/${props.githubLink}`}
           className="btn"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           GitHub
         </a>
@@ -24,7 +24,7 @@ function ProjectCard(props) {
             href={props.demoLink}
             className="btn btn-primary"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             Live Demo
           </a>
