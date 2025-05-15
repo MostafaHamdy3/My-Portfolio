@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h4>Experience</h4>
-              <small>Junior</small>
+              <small>Mid-Level</small>
             </article>
 
             <article className="about__card">
@@ -41,6 +41,9 @@ const About = () => {
           <ul>
             <li>Bachelor's degree in Computer Engineering at Fayoum University.</li>
             <li>I'm working on KSA company.</li>
+            <li>I have +2 years of experience building cross-platform mobile apps (Android/iOS).</li>
+            <li>Specialized in performance optimization, API integration, and scalable UI development.</li>
+            <li>Interested in clean code, scalability, and delivering seamless user experiences.</li>
             <li>I trained at Kalbonyan-Elmarsos.</li>
           </ul>
 

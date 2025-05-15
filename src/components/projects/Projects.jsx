@@ -36,7 +36,7 @@ const projects = [
   {
     img: img15,
     name: "Expense Tracker",
-    description: "A simple expense tracker app during this week and all, You can add or edit any expense.",
+    description: "A simple expense tracker app during this month and all, You can add or edit any expense.",
     githubLink: "MostafaHamdy3/Expenses_Tracker",
     category: "React Native",
   },

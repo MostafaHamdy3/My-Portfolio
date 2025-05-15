@@ -4,14 +4,17 @@ import "./experience.css";
 import ExperienceType from "./ExperienceType";
 
 const experiences = [
-  "HTML",
-  "CSS",
+  "TypeScript",
+  "React Native",
+  "EXPO",
   "JavaScript",
   "ReactJs",
-  "EXPO",
-  "React Native",
-  "API",
+  "CSS",
+  "HTML",
   "Redux",
+  "RESTful APIs",
+  "OOP",
+  "Problem Solving",
 ];
 
 const expTools = [
