@@ -42,4 +42,4 @@ Feel free to reach out via the contact form on the website or connect with me on
 
 ---
 
-> Made with ❤️ by Mostafa Hamdy
+> Made by Mostafa Hamdy ❤️
