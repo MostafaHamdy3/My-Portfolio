@@ -1,14 +1,17 @@
-import React, { useRef } from "react";
+import { FormEvent, useRef } from "react";
 import "./contact.css";
+
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form = useRef();
+  const form = useRef<HTMLFormElement | null>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!form.current) return;
 
     emailjs
       .sendForm(
@@ -26,7 +29,7 @@ const Contact = () => {
         }
       );
 
-    e.target.reset();
+    form.current.reset();
   };
 
   return (
@@ -68,7 +71,7 @@ const Contact = () => {
           <input type="email" name="email" placeholder="Your email" required />
           <textarea
             name="message"
-            rows="5"
+            rows={5}
             placeholder="Your message"
             required
           />

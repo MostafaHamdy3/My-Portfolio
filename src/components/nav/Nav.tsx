@@ -1,4 +1,3 @@
-import React from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
@@ -6,7 +5,11 @@ import { AiOutlineProject } from "react-icons/ai";
 import { BiMessageRoundedDetail } from "react-icons/bi";
 import "./nav.css";
 
-const Nav = ({ activeNav }) => {
+interface NavProps {
+  activeNav: "#home" | "#about" | "#experience" | "#projects" | "#contact";
+}
+
+const Nav = ({ activeNav }: NavProps) => {
   return (
     <nav>
       <a

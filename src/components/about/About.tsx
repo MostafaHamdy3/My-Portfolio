@@ -1,4 +1,3 @@
-import React from "react";
 import "./about.css";
 import ME from "../../assets/me.webp";
 import { FaAward } from "react-icons/fa";

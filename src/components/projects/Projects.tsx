@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import "./projects.css";
 import img13 from "../../assets/images/foresight-dashboard.webp";
@@ -8,7 +8,7 @@ import img1 from "../../assets/images/img1.webp";
 import img2 from "../../assets/images/img2.webp";
 // import img4 from "../../assets/images/img4.webp";
 import img5 from "../../assets/images/img5.webp";
-import img6 from "../../assets/images/img6.webp";
+// import img6 from "../../assets/images/img6.webp";
 import img7 from "../../assets/images/img7.webp";
 import img8 from "../../assets/images/img8.webp";
 import img9 from "../../assets/images/img9.webp";
@@ -76,16 +76,16 @@ const projects = [
     demoLink: "https://bankist-mostafa.netlify.app/",
     category: "JS",
   },
-  {
-    img: img6,
-    name: "Mapty",
-    description:
-      "A simple map Application that you can use to organize and track your workout, running and cycling.",
-    githubLink:
-      "MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Mapty",
-    demoLink: "https://mapty-darsh.netlify.app/",
-    category: "JS",
-  },
+  // {
+  //   img: img6,
+  //   name: "Mapty",
+  //   description:
+  //     "A simple map Application that you can use to organize and track your workout, running and cycling.",
+  //   githubLink:
+  //     "MostafaHamdy3/Kalbonyan-Elmarsos/tree/main/02-Udemy/-02-Js-Jonas/Projects/Mapty",
+  //   demoLink: "https://mapty-darsh.netlify.app/",
+  //   category: "JS",
+  // },
   {
     img: img12,
     name: "Hangman Game",

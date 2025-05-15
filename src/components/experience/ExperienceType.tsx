@@ -1,9 +1,12 @@
-import React from 'react'
 import { BsPatchCheckFill } from "react-icons/bs";
 
 import "./experience.css";
 
-function ExperienceType({ExpName}) {
+interface ExperienceTypeProps {
+  ExpName: string;
+}
+
+function ExperienceType({ExpName}: ExperienceTypeProps) {
   return (
     <article className="experience__details">
       <BsPatchCheckFill className="experience__details-icon" />
