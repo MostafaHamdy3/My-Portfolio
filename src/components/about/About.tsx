@@ -12,7 +12,15 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About me" />
+            <img
+              src={ME}
+              alt="About me"
+              width="900"
+              height="900"
+              loading="eager"
+              decoding="async"
+              style={{contentVisibility: "auto"}}
+            />
           </div>
         </div>
 

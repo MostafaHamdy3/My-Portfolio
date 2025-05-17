@@ -45,7 +45,7 @@ const projects = [
     name: "Omnifood",
     description: "A restaurant website",
     githubLink: "MostafaHamdy3/omnifood",
-    demoLink: "https://omnifood-kappa-ruddy.vercel.app/",
+    demoLink: "https://niceomnifood.netlify.app/",
     category: "HTML&CSS",
   },
   {
