@@ -28,19 +28,19 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h4>Experience</h4>
+              <h3>Experience</h3>
               <small>Mid-Level</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h4>Clients</h4>
+              <h3>Clients</h3>
               <small>5+</small>
             </article>
 
             <article className="about__card">
               <AiFillProject className="about__icon" />
-              <h4>Projects</h4>
+              <h3>Projects</h3>
               <small>25+ Completed</small>
             </article>
           </div>
